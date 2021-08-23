@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 100px
+}
+
+
+/*
+@media (max-width: 991px) {
+
+}
+*/
+
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background-image: url(../images/space2.jpeg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.banner h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn {
+    position: relative;
+    background: #7F00FF;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #333;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headingEdu {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.headingEdu h2 {
+    font-weight: 600;
+    font-size: 50px;
+    color: #fff;
+}
+
+.contentEdu {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.contentBox {
+    padding-right: 30px;
+}
+
+.contentBox h3 {
+    font-style: 24px;
+    margin-bottom: 10px;
+}
+
+.w50 {
+    min-width: 50%;
+}
+
+.education {
+    background-color: #333;
+}
+
+.educationImage {
+    max-height: 25%;
+    max-width: 25%;
+}
+
+img {
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.social {
+    width: 100%;
+    background: #333;
+}
+
+.social ul {
+    list-style: none;
+    text-align: center;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
