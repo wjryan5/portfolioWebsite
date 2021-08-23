@@ -12,8 +12,7 @@ section {
 }
 
 
-/* Tablet Landscape */
-
+/*
 @media screen and (max-width: 1060px) {
     #primary {
         width: 67%;
@@ -24,9 +23,6 @@ section {
     }
 }
 
-
-/* Tabled Portrait */
-
 @media screen and (max-width: 768px) {
     #primary {
         width: 100%;
@@ -36,16 +32,32 @@ section {
         margin: 0;
         border: none;
     }
+    header {
+        display: none;
+    }
+    h2 {
+        font-size: 15px;
+    }
 }
 
-html {
-    font-size: 100%;
+@media (min-width:700px) {
+    header {
+        display: none;
+    }
+    h2 {
+        font-size: 15%;
+    }
 }
 
 @media (min-width: 640px) {
     body {
         font-size: 1rem;
     }
+}
+*/
+
+html {
+    font-size: 100%;
 }
 
 .banner {
@@ -217,4 +229,28 @@ img {
     text-align: center;
     text-decoration: none;
     color: #fff;
+}
+
+@media only screen and (max-width: 750px) {
+    header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        display: none;
+    }
+    img {
+        display: none;
+    }
+    body {
+        font-size: xx-small;
+    }
+    .contentBox {
+        padding-right: 0;
+    }
+    .w50 {
+        min-width: 0;
+    }
 }
